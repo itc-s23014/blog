@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const Home = () => {
   return (
     <>
@@ -11,5 +12,11 @@ const Home = () => {
       <footer>FOOTER</footer>
     </>
   )
+=======
+import Hero from 'components/hero'
+
+const Home = () => {
+  return <Hero title='CUBE' subtitle='アウトプットしていくサイト' imageOn />
+>>>>>>> chapter2
 }
 export default Home
